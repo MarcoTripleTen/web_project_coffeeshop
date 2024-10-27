@@ -263,9 +263,18 @@
   width: 20px;
   border: 1px solid #838383;
   background-color: #ffffff;
+  border-radius: 2px;
 }
 
 .form__item_el_terms:checked + .form__pseudo-item_type_checkbox {
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
