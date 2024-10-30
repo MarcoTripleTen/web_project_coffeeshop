@@ -187,8 +187,7 @@
 .reservation__title {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 0;
+  margin: 100px 0 80px;
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
@@ -196,7 +195,7 @@
 
 .reservation__form {
   display: flex;
-  margin: 80px auto 120px;
+  margin: 0 auto 120px;
 }
 
 .reservation__form-input {
@@ -274,7 +273,7 @@
   background-repeat: no-repeat;
 }
 
-.checkbox-container {
+.reservation__label_terms_checkbox-container {
   display: flex;
   align-items: center;
   justify-content: center;
