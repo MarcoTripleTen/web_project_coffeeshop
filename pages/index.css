@@ -187,9 +187,10 @@
 .reservation__title {
   display: flex;
   justify-content: center;
-  margin: 100px 0 0;
+  margin-top: 100px;
+  margin-bottom: 0;
   font-size: 44px;
-  line-height: 20px;
+  line-height: 52px;
   font-weight: 500;
 }
 
@@ -206,7 +207,7 @@
   max-width: 385px;
 }
 
-.form__item {
+.reservation__item {
   font-size: 20px;
   line-height: 30px;
   box-sizing: border-box;
@@ -218,14 +219,14 @@
   border: 1px solid #838383;
 }
 
-.form__label {
+.reservation__label {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
   margin: 0 0 8px;
 }
 
-.form__button {
+.reservation__button {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -239,16 +240,16 @@
   margin: 0 0 32px;
 }
 
-.form__button:hover {
+.reservation__button:hover {
   cursor: pointer;
   opacity: 0.7;
 }
 
-.form__label-text {
+.reservation__label-text {
   margin: 0 0 0 12px;
 }
 
-.form__item_el_terms {
+.reservation__item_el_terms {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -256,7 +257,7 @@
   clip: rect(0 0 0 0);
 }
 
-.form__pseudo-item {
+.reservation__pseudo-item {
   display: inline-block;
   vertical-align: middle;
   height: 20px;
@@ -266,7 +267,7 @@
   border-radius: 2px;
 }
 
-.form__item_el_terms:checked + .form__pseudo-item_type_checkbox {
+.reservation__item_el_terms:checked + .reservation__pseudo-item_type_checkbox {
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   background-position: center;
