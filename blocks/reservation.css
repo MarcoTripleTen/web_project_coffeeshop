@@ -19,3 +19,8 @@
   line-height: 52px;
   font-weight: 500;
 }
+
+.reservation__form {
+  display: flex;
+  margin: 0 auto 120px;
+}
